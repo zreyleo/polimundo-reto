@@ -19,3 +19,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::apiResource('people', \App\Http\Controllers\Api\PersonController::class);
+Route::apiResource('tickets', \App\Http\Controllers\Api\TicketController::class);
