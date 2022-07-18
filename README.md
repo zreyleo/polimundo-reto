@@ -1,5 +1,12 @@
 # Polimundo - reto backend
 
+instrucciones para levantar el proyecto usando docker:
+
+1. abrir la consola.
+2. docker run -p 9000:8000 -d regzam/polimundo-backend
+3. abrir el navegador y escribir ```localhost:9000```
+
+
 requerimientos para levantar en local:
 
 PHP >= 8.0
@@ -14,8 +21,3 @@ instrucciones para levantar en local:
 
 
 
-instrucciones para levantar el proyecto usando docker:
-
-1. abrir la consola.
-2. docker run -p 9000:8000 -d regzam/polimundo-backend
-3. abrir el navegador y escribir ```localhost:9000```
