@@ -6,6 +6,16 @@ instrucciones para levantar el proyecto usando docker:
 2. escribir ```docker run -p 9000:8000 -d regzam/polimundo-backend```
 3. abrir el navegador y escribir en la barra de direcciones ```localhost:9000```
 
+enpoints:
+
+```localhost:9000/api/people```
+
+```localhost:9000/api/people/5```
+
+```localhost:9000/api/tickets```
+
+```localhost:9000/api/tickets/5```
+
 
 requerimientos para levantar en local:
 
